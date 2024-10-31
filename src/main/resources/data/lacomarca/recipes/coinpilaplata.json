@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "lacomarca:comarcacoinplata"
+    }
+  },
+  "result": {
+    "item": "lacomarca:comarcacoinpilaplata",
+    "count": 1
+  }
+}

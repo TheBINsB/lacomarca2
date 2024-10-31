@@ -1,0 +1,26 @@
+{
+  "offers": [
+    {
+      "buy": {
+        "item": "minecraft:emerald",
+        "count": 3
+      },
+      "sell": {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "maxUses": 5
+    },
+    {
+      "buy": {
+        "item": "minecraft:gold_ingot",
+        "count": 5
+      },
+      "sell": {
+        "item": "minecraft:iron_ingot",
+        "count": 10
+      },
+      "maxUses": 3
+    }
+  ]
+}

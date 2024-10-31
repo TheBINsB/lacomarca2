@@ -1,0 +1,420 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lacomarca",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lacomarca",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Comarcacoinbronce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinbronce",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinbronce.json",
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinbronceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Comarcacoinplata",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinplata",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinplata.json",
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinplataItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Comarcacoinoro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinoro",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinoro.json",
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinoroItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Comarcacoinpilabronce",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinpilabronce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinpilabronceItem.java",
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinpilabronce.json"
+        ]
+      }
+    },
+    {
+      "name": "Comarcacoinpilaplata",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinpilaplata",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinpilaplata.json",
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinpilaplataItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Comarcacoinpilaoro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcacoinpilaoro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/item/ComarcacoinpilaoroItem.java",
+          "src/main/resources/assets/lacomarca/models/item/comarcacoinpilaoro.json"
+        ]
+      }
+    },
+    {
+      "name": "VineBiter",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_biter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/entity/model/VineBiterModel.java",
+          "src/main/resources/assets/lacomarca/models/item/vine_biter_spawn_egg.json",
+          "src/main/java/net/bin/lacomarca/entity/VineBiterEntity.java",
+          "src/main/java/net/bin/lacomarca/client/renderer/VineBiterRenderer.java",
+          "src/main/resources/data/lacomarca/forge/biome_modifier/vine_biter_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "VineBiterHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_biter_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/procedures/VineBiterHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VineBiterSpawnrate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_biter_spawnrate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/procedures/VineBiterSpawnrateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Comarcadmg",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comarcadmg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/damage_type/comarcadmg.json"
+        ]
+      }
+    },
+    {
+      "name": "VineBiterAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_biter_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/procedures/VineBiterAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golemllager1",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemllager_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/entity/Golemllager1Entity.java",
+          "src/main/resources/assets/lacomarca/models/item/golemllager_1_spawn_egg.json",
+          "src/main/java/net/bin/lacomarca/entity/model/Golemllager1Model.java",
+          "src/main/java/net/bin/lacomarca/client/renderer/Golemllager1Renderer.java",
+          "src/main/resources/data/lacomarca/forge/biome_modifier/golemllager_1_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Golemllager2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemllager_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/forge/biome_modifier/golemllager_2_biome_modifier.json",
+          "src/main/resources/assets/lacomarca/models/item/golemllager_2_spawn_egg.json",
+          "src/main/java/net/bin/lacomarca/client/renderer/Golemllager2Renderer.java",
+          "src/main/java/net/bin/lacomarca/entity/Golemllager2Entity.java",
+          "src/main/java/net/bin/lacomarca/entity/model/Golemllager2Model.java"
+        ]
+      }
+    },
+    {
+      "name": "Golemllager3",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemllager_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bin/lacomarca/entity/model/Golemllager3Model.java",
+          "src/main/resources/assets/lacomarca/models/item/golemllager_3_spawn_egg.json",
+          "src/main/resources/data/lacomarca/forge/biome_modifier/golemllager_3_biome_modifier.json",
+          "src/main/java/net/bin/lacomarca/client/renderer/Golemllager3Renderer.java",
+          "src/main/java/net/bin/lacomarca/entity/Golemllager3Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Golemllager4",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemllager_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/forge/biome_modifier/golemllager_4_biome_modifier.json",
+          "src/main/java/net/bin/lacomarca/client/renderer/Golemllager4Renderer.java",
+          "src/main/resources/assets/lacomarca/models/item/golemllager_4_spawn_egg.json",
+          "src/main/java/net/bin/lacomarca/entity/model/Golemllager4Model.java",
+          "src/main/java/net/bin/lacomarca/entity/Golemllager4Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Golemllager5",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemllager_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lacomarca/models/item/golemllager_5_spawn_egg.json",
+          "src/main/java/net/bin/lacomarca/client/renderer/Golemllager5Renderer.java",
+          "src/main/java/net/bin/lacomarca/entity/model/Golemllager5Model.java",
+          "src/main/resources/data/lacomarca/forge/biome_modifier/golemllager_5_biome_modifier.json",
+          "src/main/java/net/bin/lacomarca/entity/Golemllager5Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Coinpilabronce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinpilabronce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinpilabronce.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinpilaplata",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinpilaplata",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinpilaplata.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinpilaoro",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinpilaoro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinpilaoro.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinbronce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinbronce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinbronce.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinplata",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinplata",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinplata.json"
+        ]
+      }
+    },
+    {
+      "name": "Coinoro",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinoro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/recipes/coinoro.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonks",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lacomarca/advancements/stonks.json"
+        ]
+      }
+    },
+    {
+      "name": "Trades",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trades"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.lacomarca.lacomarca": "Lacomarca",
+      "item.lacomarca.golemllager_4_spawn_egg": "Golemllager 1 Spawn Egg",
+      "item.lacomarca.comarcacoinpilabronce": "Comarca coin pila bronce",
+      "death.attack.comarcadmg.item": "%1$s was killed by %2$s using %3$s",
+      "item.lacomarca.golemllager_1_spawn_egg": "Golemllager 1 Spawn Egg",
+      "entity.lacomarca.golemllager_1": "Golemllager 1",
+      "entity.lacomarca.golemllager_3": "Golemllager 1",
+      "entity.lacomarca.golemllager_2": "Golemllager 1",
+      "death.attack.comarcadmg.player": "%1$s died whilst trying to escape %2$s",
+      "entity.lacomarca.golemllager_5": "Golemllager 1",
+      "item.lacomarca.comarcacoinpilaplata": "Comarca coin pila plata",
+      "entity.lacomarca.golemllager_4": "Golemllager 1",
+      "item.lacomarca.golemllager_3_spawn_egg": "Golemllager 1 Spawn Egg",
+      "advancements.stonks.title": "Stonks",
+      "entity.lacomarca.vine_biter": "Vine Biter",
+      "item.lacomarca.vine_biter_spawn_egg": "Vine Biter Spawn Egg",
+      "item.lacomarca.golemllager_5_spawn_egg": "Golemllager 1 Spawn Egg",
+      "item.lacomarca.comarcacoinbronce": "Comarca coin bronce",
+      "item.lacomarca.comarcacoinpilaoro": "Comarca coin pila plata",
+      "item.lacomarca.comarcacoinplata": "Comarca coin plata",
+      "death.attack.comarcadmg": "%1$s was killed by %2$s",
+      "item.lacomarca.comarcacoinoro": "Comarca coin oro",
+      "item.lacomarca.golemllager_2_spawn_egg": "Golemllager 1 Spawn Egg",
+      "advancements.stonks.descr": "consigue la primera Comarca Coin de Oro"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lacomarca",
+    "modName": "La Comarca",
+    "version": "1.0.0",
+    "author": "thebi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.bin.lacomarca"
+  },
+  "mcreatorVersion": 202400342716
+}

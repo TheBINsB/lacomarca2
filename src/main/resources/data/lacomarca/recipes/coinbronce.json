@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lacomarca:comarcacoinpilabronce"
+    }
+  ],
+  "result": {
+    "item": "lacomarca:comarcacoinbronce",
+    "count": 9
+  }
+}
